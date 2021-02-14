@@ -131,7 +131,7 @@ searchBtn.addEventListener('click', function () {
 sliderBtn.addEventListener('click', function () {
   const duration = document.getElementById('doration').value || 1000;
   if(duration <= 0){
-    alert('Time is not negative number');
+    alert('Time is a negative number');
   }
   else {
     createSlider();   
